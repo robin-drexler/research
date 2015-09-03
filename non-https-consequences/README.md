@@ -1,6 +1,6 @@
 ## Motiviation
 
-This document outlines the consequences of serving a web page by http instead of https.(Security concerns completely put aside)
+This document discusses the consequences of serving a web page by http instead of https.(Security concerns completely put aside)
 
 ## Browsers will mark non-secure origins as non-secure
 [https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure](https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure)
