@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    #placeholder {
+      transition: all 200ms ease-out;
+      opacity: 0;
+    }
+    #placeholder.visible {
+      opacity: 1;
+    }
+  </style>
+ </head>
+ <body>
+   <div id="placeholder">
+     This was displayed dynamically.</br>
+     Now <a href="second.html">click this link</a> and navigate back here afterwards.</br>
+     If bfcache is used, this text should still be there.
+   </div>
+   <button id="action">Click to change page state</button>
+
+   <script>
+   window.addEventListener('unload', function() {
+     console.log('¯\_(ツ)_/¯');
+   });
+    document.getElementById('action').addEventListener('click', function() {
+      document.getElementById('placeholder').classList.add('visible');
+    });
+   </script>
+ </body>
+</html>
