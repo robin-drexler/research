@@ -21,6 +21,7 @@ This document discusses the consequences of serving a web page non-securely in t
  - [App install banners](https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android?hl=en) (due to service worker being needed)
  
 http://www.w3.org/TR/service-workers/#security-considerations
+
 [Mozilla outlines](https://blog.mozilla.org/security/2015/04/30/deprecating-non-secure-http/), that they're plan to add new features https only.
 
 ## Existing web apis will stop working non secure
