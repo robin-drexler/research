@@ -22,18 +22,19 @@ This document discusses the consequences of serving a web page non-securely in t
  
 http://www.w3.org/TR/service-workers/#security-considerations
 
-[Mozilla outlines](https://blog.mozilla.org/security/2015/04/30/deprecating-non-secure-http/), that they're plan to add new features https only.
-
 ## Existing web apis will stop working non secure
  - geolocation
  - access to microphone / camera
  - full screen
  - (session) storage
  
- 
+https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins
+
 https://sites.google.com/a/chromium.org/dev/Home/chromium-security/prefer-secure-origins-for-powerful-new-features
 
 http://www.w3.org/TR/powerful-features/#feature-requires-privilege
+
+https://blog.mozilla.org/security/2015/04/30/deprecating-non-secure-http/
 
 ### Deprecation already in process
 Using geolocation on non-secure origin already utters a deprecation warning in recent Chrome versions.
